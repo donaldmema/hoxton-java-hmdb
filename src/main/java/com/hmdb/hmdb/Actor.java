@@ -6,8 +6,8 @@ public class Actor {
 
   public static ArrayList<Actor> actors = new ArrayList<>();
 
-  static int count = 4; // 4 actors in the database
-  
+  static int count = 0; // 4 actors in the database
+
   public int id;
   public String firstName;
   public String lastName;

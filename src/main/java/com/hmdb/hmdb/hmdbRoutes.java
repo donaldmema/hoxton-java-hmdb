@@ -50,4 +50,9 @@ public class hmdbRoutes {
         return actor;
     }
 
+    @PostMapping("/movie")
+    public Movie createMovie(@RequestBody Movie movie) {
+        return movie;
+    }
+
 }

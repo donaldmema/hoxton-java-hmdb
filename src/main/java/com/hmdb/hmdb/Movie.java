@@ -6,7 +6,7 @@ public class Movie {
 
     public static ArrayList<Movie> movies = new ArrayList<>();
 
-    static int count = 2; // 2 movies in the database
+    static int count = 0; // 2 movies in the database
 
     public int id;
     public String title;
